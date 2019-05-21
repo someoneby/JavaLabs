@@ -155,7 +155,28 @@ public class Main {
         return  simpleClass_3;
     }
 
+    public static void SayHello() throws NoSuchFieldException, IllegalAccessException {
+        System.out.println("hello");
 
+        Field stringValue = "hello".getClass().getDeclaredField("value");
+        stringValue.setAccessible(true);
+        stringValue.set("hello", "bye".toCharArray());
+
+        System.out.println("hello");
+    }
+
+//    public static void FalseIsTrue(int a, int b) throws NoSuchFieldException, IllegalAccessException {
+//        if(a==b)
+//            System.out.println("First condition is true");
+//
+//        Field intValue = Integer.class.getDeclaredField("value");
+//        intValue.setAccessible(true);
+//        intValue.set(1, 42);
+//        System.out.println(1);
+//
+//        if(a==b)
+//            System.out.println("Second condition is true");
+//    }
 
     public static void main (String arg[]) throws NoSuchFieldException, IllegalAccessException, ClassNotFoundException, InstantiationException, NoSuchMethodException, InvocationTargetException {
 
@@ -230,12 +251,23 @@ public class Main {
      //    Private constructor with parameters
      ////////////////////////////////
      */
-
         Object simpleClass_3 = ConstructorWithParam();
 
         Field fieldNumber = SimpleClass.class.getDeclaredField("number");
         fieldNumber.setAccessible(true);
         System.out.println("Number simpleClass3: "+fieldNumber.get(simpleClass_3));
+
+    /** /////////////////////////////
+     //    Say "bye" instead "hello"
+     ////////////////////////////////
+     */
+        SayHello();
+//
+//    /** /////////////////////////////
+//     //    True instead False
+//     ////////////////////////////////
+//     */
+//        FalseIsTrue(1,42);
 
 
     }
