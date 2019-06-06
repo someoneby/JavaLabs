@@ -165,5 +165,4 @@ public class Stream2 {
         return DoubleStream.of(23.23,24.256,23.1);
     }
 
-
 }

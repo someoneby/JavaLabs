@@ -340,7 +340,5 @@ public class Main {
 /**        Дан список списков строк. Вернуть строку по шаблону*/
         Stream3.FormatPrint(stringArrayList);
 
-
-
     }
 }
