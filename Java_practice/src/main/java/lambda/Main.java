@@ -290,7 +290,6 @@ public class Main {
         System.out.println(StartFrom100.get());
         System.out.println(StartFrom100.get());
 
-
     }
 }
 
