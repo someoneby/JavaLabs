@@ -55,10 +55,10 @@ public class Main {
         System.out.println("\nПолучить Period между текущей датой и вашим днем рождения (с годом):\n "+ Period.between(LocalDate.now(), LocalDate.of(1995,07,07)));
 
 /** Получить дату следующего четверга */
-        System.out.println("\nПолучить дату следующего четверга:\n "+ LocalDate.now().with(next(DayOfWeek.THURSDAY)));
+        System.out.println("\nПолучить дату следующего четверга:\n "+ timeNow.with(next(DayOfWeek.THURSDAY)));
 
 /** Получить дату второй субботы текущего месяца текущего года */
-        System.out.println("\nПолучить дату второй субботы текущего месяца текущего года:\n "+ LocalDate.now().with(firstInMonth(DayOfWeek.SATURDAY)).plusDays(7));
+        System.out.println("\nПолучить дату второй субботы текущего месяца текущего года:\n "+ timeNow.with(firstInMonth(DayOfWeek.SATURDAY)).plusDays(7));
 
 /** Преобразовать ZonedDateTime дял ващего региона в LocalDateTime для региона UTC */
         System.out.println("\nПреобразовать ZonedDateTime дял ващего региона в LocalDateTime для региона UTC:\n "+ ZonedDateTime.now(ZoneId.of("Europe/Minsk")).toLocalDateTime().atZone(ZoneId.of("UTC")));
