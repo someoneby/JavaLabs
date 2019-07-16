@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0000a6bc-dc80-4b4f-825a-ccfd67139e3f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Concurrency/CounterWithSemaphore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Concurrency/Deadlock1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Concurrency/Deadlock2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Concurrency/Deadlock3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Concurrency/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../summator/src/main/java/hello.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/JAVA_PRACTICE.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
