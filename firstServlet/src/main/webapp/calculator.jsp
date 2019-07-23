@@ -1,3 +1,5 @@
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<html lang="en">
 <!DOCTYPE html>
 <html>
 <head>
@@ -7,7 +9,6 @@
 <body>
     <jsp:include page="form.jsp" />
 
-    Result: ${result}
 
 </body>
 </html>
