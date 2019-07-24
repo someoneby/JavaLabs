@@ -7,10 +7,17 @@
     <title>User Form</title>
 </head>
 <body>
+
+    <%
+        if (request.getAttribute("errorMessage") != null) {
+             out.print(request.getAttribute("errorMessage"));
+        }
+    %>
+    <br>
     <jsp:include page="form.jsp" />
     Result:
     <%
-        if (request.getParameterNames().hasMoreElements()) {
+        if (request.getAttribute("result") != null) {
             out.print(request.getAttribute("result"));
         }
     %>
