@@ -8,7 +8,11 @@
 </head>
 <body>
     <jsp:include page="form.jsp" />
-
-
+    Result:
+    <%
+        if (request.getParameterNames().hasMoreElements()) {
+            out.print(request.getAttribute("result"));
+        }
+    %>
 </body>
 </html>

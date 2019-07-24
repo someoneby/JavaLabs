@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0000a6bc-dc80-4b4f-825a-ccfd67139e3f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../summator/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../summator/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../summator/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../summator/src/main/java/hello.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../firstServlet/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../firstServlet/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../firstServlet/src/main/java/com/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../firstServlet/src/main/java/com/Calculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../firstServlet/src/main/webapp/calculator.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../firstServlet/src/main/webapp/calculator.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -188,7 +185,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
@@ -202,6 +199,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -259,13 +258,11 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../summator" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../firstServlet" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -348,8 +345,8 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.Deadlock" />
       <item itemvalue="Application.Main" />
+      <item itemvalue="Application.Deadlock" />
     </list>
     <recent_temporary>
       <list>
@@ -444,9 +441,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49819493" visible="true" weight="0.20469083" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49819493" visible="true" weight="0.20682302" />
       <window_info id="Structure" order="1" sideWeight="0.50180507" side_tool="true" weight="0.26066098" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -857,15 +855,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/apache-tomcat-8.5.40/webapps/myWebapp/WEB-INF/classes/org/mycompany/myname/HelloServlet.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#697#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/apache-tomcat-8.5.40/webapps/myWebapp/WEB-INF/classes/org/mycompany/myname/HelloServlet.class" />
     <entry file="file://$PROJECT_DIR$/src/main/java/Concurrency/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">

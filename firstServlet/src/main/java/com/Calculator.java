@@ -1,9 +1,6 @@
 package com;
 
-import java.io.PrintWriter;
 import java.io.IOException;
-import javax.servlet.RequestDispatcher;
-import javax.servlet.ServletContext;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
@@ -16,22 +13,13 @@ public class Calculator extends HttpServlet {
     private double result;
 
     @Override
-    protected void doGet(HttpServletRequest request, HttpServletResponse response)
-            throws ServletException, IOException {
-//        response.sendRedirect("http://localhost:8080/FirstServlet/Result.jsp");
-        request.getRequestDispatcher("/efwf.html").forward(request,response);
-    }
-
-    @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         response.setContentType("text/html");
-        PrintWriter print = response.getWriter();
 
         x1 = request.getParameter("x1");
         x2 = request.getParameter("x2");
         operation = request.getParameter("operation").charAt(0);
 
-        try {
             switch (operation){
                 case '+':{
                     result = Double.parseDouble(x1) + Double.parseDouble(x2);
@@ -51,11 +39,8 @@ public class Calculator extends HttpServlet {
                 }
             }
             request.setAttribute("result", result);
-        }finally {
-            print.close();
-        }
-        request.getRequestDispatcher("/efwf.html").forward(request,response);
+            request.getParameterNames().hasMoreElements();
 
-        doGet(request,response);
+        request.getRequestDispatcher("calculator.jsp").forward(request,response);
     }
 }
